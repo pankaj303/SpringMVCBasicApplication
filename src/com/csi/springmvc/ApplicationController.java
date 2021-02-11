@@ -20,6 +20,7 @@ public class ApplicationController {
 		model.addAttribute("message", "APPLICATION SOFTWARE DEVELOPMENT | PAYMENT GATEWAY INTEGRATION");
 		return "welcome";
 	}
+	System.out.println("a");
 	
 	@RequestMapping(value="/csiaddress", method = RequestMethod.GET)
 	public String sayCSIAddress(ModelMap model) {
